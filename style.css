@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(images/bg.jpg);
+  height: 70vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.box {
+  background-color: black;
+  opacity: .64;
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 65%;
+  margin: auto;
+  justify-content: space-between;
+  height: 60px;
+}
+
+nav img {
+  color: red;
+  width: 148px;
+  height: 35px;
+  position: relative;
+  z-index: 6;
+  margin-top: 20px;
+}
+
+nav button {
+  position: relative;
+  z-index: 6;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: calc(100% - 61px);
+  position: relative;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sep {
+  background-color: #343232;
+  height: 7px;
+  border: none;
+
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+.btn1 {
+  height: 30px;
+  width: 132px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  border: 1.4px solid #343232;
+  margin-right: 5px;
+}
+
+.red-sn {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 75px;
+  border-radius: 4px;
+}
+
+.red-gs {
+  background-color: red;
+  padding: 9px 24px;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.main input {
+  padding: 15px 101px 8px 14px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: transparent;
+  /* font-weight: 900; */
+  border: 1.4px solid #343232;
+  color: white;
+
+
+}
+
+.panel1 {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.img1 {
+  position: relative;
+}
+
+.img1 img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+  margin-top: 6px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div1> :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.div1> :nth-child(2) {
+  font-size: 24px;
+}
+
+.img1 video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 376px;
+}
+
+
+
+.img2 video {
+  height: 145px;
+  width: 402px;
+  top: 33px;
+}
+
+
+.feq h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.feq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+
+.questions {
+  transition: all 1s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  background-color: #343232;
+  padding: 24px;
+  margin: 24px auto;
+  max-width: 60vw;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.questions span {
+  font-size: 24px;
+}
+
+.questions:hover {
+  background-color: #5a5858;
+}
+
+.feq h5{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer-item{
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
